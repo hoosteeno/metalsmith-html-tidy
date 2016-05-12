@@ -1,0 +1,9 @@
+{
+  "name": "untidy_demo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-debug": "^1.0.0",
+    "metalsmith-html-tidy": "^1.0.0"
+  }
+}

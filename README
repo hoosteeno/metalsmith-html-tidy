@@ -1,3 +1,0 @@
-metalsmith-html-tidy
-
-wraps [tidy-html5](https://www.npmjs.com/package/tidy-html5) in a metalsmith plugin. more README to come.

@@ -24,11 +24,10 @@ function plugin(options){
     let pattern = defaults.pattern;
     if ('pattern' in options) {
         pattern = options.pattern;
-        delete options.pattern;
     }
 
-    const tidyOptions = Object.assign(defaults.tidyOptions, options);
-    log('using options %o', tidyOptions);
+    const tidyOptions = Object.assign(defaults.tidyOptions, options.tidyOptions);
+    log('using tidy options %o', tidyOptions);
 
     function tidyHtml(files, metalsmith, done) {
         let htmlFiles = multimatch(Object.keys(files), pattern);

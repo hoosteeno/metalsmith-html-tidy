@@ -2,6 +2,7 @@
   "name": "metalsmith-html-tidy",
   "version": "1.0.0",
   "description": "metalsmith wrapper around tidy-html5",
+  "repository": "https://github.com/hoosteeno/metalsmith-html-tidy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,12 @@
   "dependencies": {
     "multimatch": "^2.1.0",
     "tidy-html5": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1"
   }
 }

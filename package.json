@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-html-tidy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "metalsmith wrapper around tidy-html5",
   "repository": "https://github.com/hoosteeno/metalsmith-html-tidy",
   "main": "index.js",

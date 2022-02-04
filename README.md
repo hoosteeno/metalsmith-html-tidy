@@ -16,7 +16,7 @@ const tidy = require('metalsmith-html-tidy');
 
 metalsmith.use(tidy({
     pattern: '**/*html',
-    tidyOptions {
+    tidyOptions: {
       'indent-spaces': 4,
     }
 }));
